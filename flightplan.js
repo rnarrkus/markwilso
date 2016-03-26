@@ -4,7 +4,7 @@ var plan = require('flightplan');
 /**
  * Remote configuration for "production"
  */
-plan.target('production', {
+plan.target('live', {
   host: '82.196.0.212',
   username: 'root',
   agent: process.env.SSH_AUTH_SOCK,
