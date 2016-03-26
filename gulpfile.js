@@ -106,3 +106,4 @@ gulp.task('watch', function() {
 // Command line tasks
 gulp.task('build', ['jade', 'stylus', 'img', 'js']);
 gulp.task('default', ['build', 'webserver', 'watch', 'openbrowser']);
+gulp.task('w', ['build', 'watch']);
