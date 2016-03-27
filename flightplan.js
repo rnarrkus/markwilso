@@ -47,6 +47,10 @@ plan.remote('deploy', function(remote) {
 		var versionId = command.stdout.trim();
 		var versionFolder = 'versions/' + versionId
 		
+    remote.log('Installing dependencies...');
+    remote.exec('npm install', {silent: true});
+    remote.log('Building...');
+    remote.exec('gulp build', {silent: true});
 		remote.sudo('cp -R repo/dist ' + versionFolder);
 		remote.sudo('chown -R ' + remote.runtime.ownerUser + ':' + remote.runtime.ownerUser + ' ' + versionFolder);
 		remote.sudo('ln -fsn ' + versionFolder + ' public');
