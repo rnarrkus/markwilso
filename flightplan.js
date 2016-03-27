@@ -11,7 +11,6 @@ plan.target('live', {
 
   webRoot: '/srv/users/serverpilot/apps/flightplan/',
   ownerUser: 'www-data',
-  repository: 'https://github.com/rnarrkus/markwilso.git',
   branchName: 'master',
   maxDeploys: 10
 });
