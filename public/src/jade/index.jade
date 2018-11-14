@@ -1,0 +1,52 @@
+//- index.jade
+doctype html
+html
+  include includes/head.jade
+  title Mark Wilson
+  meta(name='title' ,content='Mark Wilson')
+  meta(name='description', content='UI & UX Designer from Glasgow, Scotland.')
+  link(rel='stylesheet', href='css/style.css')
+  body
+    .overlay.animate
+      .background
+      .wrap
+        .row
+          .column
+            .overlay-content.offset
+              | Hi.
+    section.intro
+      .wrap
+        .row
+          .column
+            h1 My name is Mark Wilson.
+            p I’m a 26 year old UI & UX Designer from Glasgow, Scotland helping companies to build beautiful and functional products. 
+            p I've designed apps for iOS and Android, Desktop and Web, Augmented Reality and Virtual Reality.
+            p Recently, I made #[a(href='http://sketchsheets.com') sketchsheets.com]. A source for downloading loads of ready to print device templates.
+            p I'm in the process of updating my portfolio and adding projects. In the meantime you can check out my #[a(href='http://marrkus.dribbble.com') dribbble].
+      // .wrap
+        // .row
+          // .column
+           //  h2 Projects
+            // ul
+              // li
+                // a(href='http://sketchsheets.com') Sketchsheets
+              // li
+                // a(href='') Samsung Digital Discovery Center
+              // li
+                // a(href='') Populous Magazine
+    section.contact
+      .wrap
+        .row
+          .column
+            h2 Let's Talk
+            p If you’d like to work with me on your latest project. Just #[a(href='mailto:e@markwil.so') say hello.]
+    footer
+      .wrap
+        .row
+          .column
+            a(href='http://marrkus.dribbble.com/') Dribbble
+            a(href='http://twitter.com/rnarrk') Twitter
+            a(href='https://github.com/rnarrkus') Github
+            
+    
+  include includes/scripts.jade
