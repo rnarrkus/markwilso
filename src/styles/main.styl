@@ -1,35 +1,110 @@
-// Sketchsheets 2018 by Mark Wilson
-
 // Use Nanogram Colors
 @require 'Nanogram/_Color'
 // Use Nanogram Config
 @require 'Nanogram/_Config'
 // Use Animations
-@require '_Animations'
+@require 'Nanogram/_Animations'
 
 // Site styles
 
-body
-  background #FFFFFF
-  color #0A1F44
+header,
+section,
+footer
+  padding 0 24px
 
-
-section.header
-  margin-top 100px
-  margin-bottom 50px
+header
+  margin-top 30rem
+  @media (max-width: screen-phone)
+    margin-top 16rem
+  
+header
   h1
-    margin-bottom 1rem
-  h5
-    color #8A94A6
-    letter-spacing 0.035rem
+    color color-dark-typography
+    
+header
+  p 
+    font-weight 100
+    color color-light-typography
+    
+header
+  p 
+    &:first-of-type
+      margin 4.8rem 0 0 0
+      animation-delay 0.75s
+      
+header
+  p 
+    &:last-of-type
+      animation-delay 1s
+      
+section.sideprojects
+  margin-top 14rem
+      
+section.sideprojects
+  small
+    display block
+    font-size 1.4rem
+    font-weight 500
+    letter-spacing 0.35rem
+    line-height 5.6rem
+    text-transform uppercase
+    color color-lighter-typography
+    animation-delay 1.25s
+  
+section.sideprojects
+  ul
+    list-style none
+  
+section.sideprojects
+  ul
+    li
+      &:nth-of-type(1)
+        animation-delay 1.5s
+      &:nth-of-type(2)
+        animation-delay 1.75s
+      &:nth-of-type(3)
+        animation-delay 2s
+  
+footer
+  margin-top 16rem
 
-section
-  h1,h2,h3,h4,h5,h6,p
-    max-width 500px
-  h4
-    color #0A1F44
-    letter-spacing 0.035rem
-  p
-    color #8A94A6
-  &:last-of-type
-    margin-bottom 150px
+footer
+  h3
+    font-weight 400
+    letter-spacing -0.15rem
+    animation-delay 2.25s
+    
+footer
+  h3
+    span
+      display inline-block
+      margin 0 8px 0 0
+      font-size 4.8rem
+      
+footer
+  ul
+    list-style none
+  
+footer
+  ul
+    li
+      display inline-block
+      @media (max-width: screen-phone)
+        display block
+      
+footer
+  ul
+    li
+      &:nth-of-type(1)
+        animation-delay 2.5s
+      &:nth-of-type(2)
+        animation-delay 2.75s
+      &:nth-of-type(3)
+        animation-delay 3s
+      
+footer
+  ul
+    li
+      a
+        font-size 2rem
+        margin-right 24px

@@ -1,17 +1,17 @@
 {
-	"name": "markwil.so",
-	"version": "2.0.0",
-	"description": "Personal website of Mark Wilson.",
-	"homepage": "https://markwil.so",
+	"name": "Markwil.so",
+	"version": "1.0.0",
+	"description": "",
+	"homepage": "",
 	"repository": "rnarrkus/markwilso",
-	"license": "MIT (code)",
+	"license": "MIT (code), CC BY-SA 4.0 (image templates)",
 	"author": "Mark Wilson <e@markwil.so>",
 	"private": "true",
 	"engines": {
 		"node": ">=4"
 	},
 	"devDependencies": {
-		"browser-sync": "^2.18.2",
+		"browser-sync": "^2.24.7",
 		"ncp": "^2.0.0",
 		"npm-run-all": "^3.1.2",
 		"onchange": "^3.2.0",
