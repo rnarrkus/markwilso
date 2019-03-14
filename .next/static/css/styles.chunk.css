@@ -1,0 +1,119 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;outline:none}.clearfix:after{clear:both;content:' ';display:table}.float-left{float:left}.float-right{float:right}.wrap{margin:0 auto}.flex{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-line-pack:center;align-content:center;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;padding:.8rem;}.flex.vertical{-ms-flex-direction:column;flex-direction:column}.flex.no-wrap{-ms-flex-wrap:nowrap;flex-wrap:nowrap}.flex.no-padding{padding:0}.flex.v-top{-ms-flex-line-pack:start;align-content:flex-start}.flex.v-bottom{-ms-flex-line-pack:end;align-content:flex-end}.flex.v-space-between{-ms-flex-line-pack:justify;align-content:space-between}.flex.v-space-around{-ms-flex-line-pack:justify;align-content:space-between}.flex.v-stretch{-ms-flex-line-pack:stretch;align-content:stretch}.flex.h-left{-ms-flex-pack:start;justify-content:flex-start}.flex.h-right{-ms-flex-pack:end;justify-content:flex-end}.flex.h-space-between{-ms-flex-pack:justify;justify-content:space-between}.flex.h-space-around{-ms-flex-pack:distribute;justify-content:space-around}.flex.h-space-even{-ms-flex-pack:space-evenly;justify-content:space-evenly}.flex.flexi-top{-ms-flex-align:start;align-items:flex-start}.flex.flexi-bottom{-ms-flex-align:end;align-items:flex-end}.flex.flexi-stretch{-ms-flex-align:stretch;align-items:stretch}.flex.flexi-baseline{-ms-flex-align:baseline;align-items:baseline}.flex > .flexi{box-sizing:border-box;position:relative;padding:.8rem;width:100%;}.flex > .flexi.no-padding{padding:0}@media (min-width:768px){.wrap{width:768px}div.flex > .flexi:first-child:nth-last-child(1),div.flex > .flexi:first-child:nth-last-child(1) ~ *{max-width:100%;-ms-flex:0 0 100%;flex:0 0 100%}div.flex > .flexi:first-child:nth-last-child(2),div.flex > .flexi:first-child:nth-last-child(2) ~ *{max-width:50%;-ms-flex:0 0 50%;flex:0 0 50%}div.flex > .flexi:first-child:nth-last-child(3),div.flex > .flexi:first-child:nth-last-child(3) ~ *{max-width:33.333333333333336%;-ms-flex:0 0 33.333333333333336%;flex:0 0 33.333333333333336%}div.flex > .flexi:first-child:nth-last-child(4),div.flex > .flexi:first-child:nth-last-child(4) ~ *{max-width:25%;-ms-flex:0 0 25%;flex:0 0 25%}div.flex > .flexi:first-child:nth-last-child(5),div.flex > .flexi:first-child:nth-last-child(5) ~ *{max-width:20%;-ms-flex:0 0 20%;flex:0 0 20%}div.flex > .flexi:first-child:nth-last-child(6),div.flex > .flexi:first-child:nth-last-child(6) ~ *{max-width:16.666666666666668%;-ms-flex:0 0 16.666666666666668%;flex:0 0 16.666666666666668%}div.flex > .flexi:first-child:nth-last-child(7),div.flex > .flexi:first-child:nth-last-child(7) ~ *{max-width:14.285714285714286%;-ms-flex:0 0 14.285714285714286%;flex:0 0 14.285714285714286%}div.flex > .flexi:first-child:nth-last-child(8),div.flex > .flexi:first-child:nth-last-child(8) ~ *{max-width:12.5%;-ms-flex:0 0 12.5%;flex:0 0 12.5%}div.flex > .flexi:first-child:nth-last-child(9),div.flex > .flexi:first-child:nth-last-child(9) ~ *{max-width:11.11111111111111%;-ms-flex:0 0 11.11111111111111%;flex:0 0 11.11111111111111%}div.flex > .flexi:first-child:nth-last-child(10),div.flex > .flexi:first-child:nth-last-child(10) ~ *{max-width:10%;-ms-flex:0 0 10%;flex:0 0 10%}div.flex > .flexi:first-child:nth-last-child(11),div.flex > .flexi:first-child:nth-last-child(11) ~ *{max-width:9.090909090909092%;-ms-flex:0 0 9.090909090909092%;flex:0 0 9.090909090909092%}div.flex > .flexi:first-child:nth-last-child(12),div.flex > .flexi:first-child:nth-last-child(12) ~ *{max-width:8.333333333333334%;-ms-flex:0 0 8.333333333333334%;flex:0 0 8.333333333333334%}div.flex > div.flexi.flexi.one{max-width:8.333333333333334%;-ms-flex:0 0 8.333333333333334%;flex:0 0 8.333333333333334%}div.flex > div.flexi.flexi.two{max-width:16.666666666666668%;-ms-flex:0 0 16.666666666666668%;flex:0 0 16.666666666666668%}div.flex > div.flexi.flexi.three{max-width:25%;-ms-flex:0 0 25%;flex:0 0 25%}div.flex > div.flexi.flexi.four{max-width:33.333333333333336%;-ms-flex:0 0 33.333333333333336%;flex:0 0 33.333333333333336%}div.flex > div.flexi.flexi.five{max-width:41.666666666666664%;-ms-flex:0 0 41.666666666666664%;flex:0 0 41.666666666666664%}div.flex > div.flexi.flexi.six{max-width:50%;-ms-flex:0 0 50%;flex:0 0 50%}div.flex > div.flexi.flexi.seven{max-width:58.333333333333336%;-ms-flex:0 0 58.333333333333336%;flex:0 0 58.333333333333336%}div.flex > div.flexi.flexi.eight{max-width:66.66666666666667%;-ms-flex:0 0 66.66666666666667%;flex:0 0 66.66666666666667%}div.flex > div.flexi.flexi.nine{max-width:75%;-ms-flex:0 0 75%;flex:0 0 75%}div.flex > div.flexi.flexi.ten{max-width:83.33333333333333%;-ms-flex:0 0 83.33333333333333%;flex:0 0 83.33333333333333%}div.flex > div.flexi.flexi.eleven{max-width:91.66666666666667%;-ms-flex:0 0 91.66666666666667%;flex:0 0 91.66666666666667%}div.flex > div.flexi.flexi.twelve{max-width:100%;-ms-flex:0 0 100%;flex:0 0 100%}div.flex > div.flexi.flexi.offset-one{margin-left:8.333333333333334%}div.flex > div.flexi.flexi.offset-two{margin-left:16.666666666666668%}div.flex > div.flexi.flexi.offset-three{margin-left:25%}div.flex > div.flexi.flexi.offset-four{margin-left:33.333333333333336%}div.flex > div.flexi.flexi.offset-five{margin-left:41.666666666666664%}div.flex > div.flexi.flexi.offset-six{margin-left:50%}div.flex > div.flexi.flexi.offset-seven{margin-left:58.333333333333336%}div.flex > div.flexi.flexi.offset-eight{margin-left:66.66666666666667%}div.flex > div.flexi.flexi.offset-nine{margin-left:75%}div.flex > div.flexi.flexi.offset-ten{margin-left:83.33333333333333%}div.flex > div.flexi.flexi.offset-eleven{margin-left:91.66666666666667%}div.flex > div.flexi.flexi.offset-twelve{margin-left:100%}div.flex > div.flexi.flexi.d-four.t-six{width:50%;max-width:50%;-ms-flex:0 0 50%;flex:0 0 50%}}@media (max-width:1152px){div.flex > div.flexi.flexi.t-twelve.t-twelve{width:100%;max-width:100%;-ms-flex:0 0 100%;flex:0 0 100%}}@media (min-width:1152px){.wrap{width:1152px}div.flex > div.flexi.flexi.d-four.t-six{width:33.333333333333336%;max-width:33.333333333333336%;-ms-flex:0 0 33.333333333333336%;flex:0 0 33.333333333333336%}}
+
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #1B8AFF;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #1B8AFF, 0 0 5px #1B8AFF;
+  opacity: 1.0;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+          transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+
+  border: solid 2px transparent;
+  border-top-color: #1B8AFF;
+  border-left-color: #1B8AFF;
+  border-radius: 50%;
+
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+          animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.wrap {
+  max-width: 782px;
+  margin: auto;
+}
+
+.nav a {
+  margin: 0 8px;
+}
+
+.nav a:first-of-type {
+  margin: 0 8px 0 0;
+}
+
+.nav a:last-of-type {
+  margin: 0 0 0 8px;
+}
+
+.hero {
+  text-align: left;
+  margin-top: 56px;
+}
+
+.hero p {
+  max-width: 375px;
+}
+
+.side-projects {
+  margin-top: 102px;
+}
+
+.side-projects img {
+  max-width: 100%;
+  border-radius: 12px;
+  transition: 0.3s
+}
+
+.side-projects img:hover {
+  box-shadow: 0 6px 25px 0 rgba(0,0,0,0.1)
+}
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

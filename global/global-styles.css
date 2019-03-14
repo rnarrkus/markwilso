@@ -1,0 +1,39 @@
+.wrap {
+  max-width: 782px;
+  margin: auto;
+}
+
+.nav a {
+  margin: 0 8px;
+}
+
+.nav a:first-of-type {
+  margin: 0 8px 0 0;
+}
+
+.nav a:last-of-type {
+  margin: 0 0 0 8px;
+}
+
+.hero {
+  text-align: left;
+  margin-top: 56px;
+}
+
+.hero p {
+  max-width: 375px;
+}
+
+.side-projects {
+  margin-top: 102px;
+}
+
+.side-projects img {
+  max-width: 100%;
+  border-radius: 12px;
+  transition: 0.3s
+}
+
+.side-projects img:hover {
+  box-shadow: 0 6px 25px 0 rgba(0,0,0,0.1)
+}

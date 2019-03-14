@@ -1,40 +1,25 @@
 {
-	"name": "Markwil.so",
-	"version": "1.0.0",
-	"description": "",
-	"homepage": "",
-	"repository": "rnarrkus/markwilso",
-	"license": "MIT (code), CC BY-SA 4.0 (image templates)",
-	"author": "Mark Wilson <e@markwil.so>",
-	"private": "true",
-	"engines": {
-		"node": ">=4"
-	},
-	"devDependencies": {
-		"browser-sync": "^2.24.7",
-		"ncp": "^2.0.0",
-		"npm-run-all": "^3.1.2",
-		"onchange": "^3.2.0",
-		"pug": "^2.0.3",
-		"stylus": "^0.54.5",
-		"autoprefixer": "^6.5.3",
-		"postcss-cli": "^2.6.0",
-		"rimraf": "^2.5.4"
-	},
-	"browserslist": [
-		"> 1%",
-		"last 3 versions"
-	],
-	"scripts": {
-		"start": "run-s clean build && run-p watch serve",
-		"clean": "rimraf docs",
-		"pug": "pug docs/* && find ./docs -name '*.pug' -delete && rm -rf docs/include",
-		"stylus": "stylus docs/styles/main.styl -o docs/styles/main.css && stylus --compress docs/styles/Nanogram/nanogram.styl -o docs/styles/nanogram.min.css && rm -rf docs/styles/Nanogram && find ./docs -name '*.styl' -delete",
-		"autoprefixer": "postcss -u autoprefixer browserslist -r docs/styles/*.css",
-		"build": "ncp src docs && run-s pug stylus autoprefixer",
-		"watch": "onchange src/* -- run-s build",
-		"serve": "browser-sync --no-notify start -s docs -f docs",
-		"test": "run-s clean build",
-		"prestart": "npm i"
-	}
+  "name": "markwil.so",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "next-fonts": "^0.17.0",
+    "nprogress": "^0.2.0",
+    "prismic-javascript": "^2.0.1",
+    "prismic-reactjs": "^0.3.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
 }
