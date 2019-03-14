@@ -5,7 +5,7 @@ const Footer = () => (
     <div className='footer flex'>
       <div className='flexi twelve'>
         <h3>Say hello.</h3>
-        <a className='button'>Email Me</a>
+        <a className='button' href='mailto:e@markwil.so'>Email Me</a>
         <div className='footer--links'>
           <a href='https://github.com/rnarrkus'>GitHub</a>
           <a href='https://dribbble.com/rnarrkus'>Dribbble</a>
