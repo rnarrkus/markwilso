@@ -4,32 +4,6 @@ import { getResumeAPI } from '../api/api'
 import linkResolver from '../helpers/linkResolver'
 import Layout from '../components/layout'
 
-// class Resume extends Component {
-//   static async getInitialProps() {
-//     const response = await getResumeAPI()
-//     return {
-//       resume: response
-//     }
-//   }
-//
-//   render() {
-//     const resume = this.props.resume.results[0].data
-//     return (
-//       <Layout>
-//         <div className='post flex'>
-//           <div className='flexi twelve'>
-//
-//             <article>
-//               <h1>{resume.company[0].companyname[0].text}</h1>
-//             </article>
-//
-//           </div>
-//         </div>
-//       </Layout>
-//     )
-//   }
-// }
-
 const Resume = ({ resume = [] }) => (
   <Layout>
     <div className='cv flex'>

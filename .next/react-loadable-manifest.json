@@ -17,12 +17,6 @@
   ],
   "undefined": [
     {
-      "id": 2,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": 3,
       "name": null,
       "file": "static/chunks/styles.js",
@@ -39,6 +33,12 @@
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
     }
   ],
   "./nprogress/nprogress.css": [
@@ -49,18 +49,18 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./index.css": [
-    {
-      "id": "./pages/index.css",
-      "name": "./pages/index.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
   "../global/global-styles.css": [
     {
       "id": "./global/global-styles.css",
       "name": "./global/global-styles.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./index.css": [
+    {
+      "id": "./pages/index.css",
+      "name": "./pages/index.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

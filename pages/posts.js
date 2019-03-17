@@ -11,7 +11,7 @@ const Posts = ({ posts = [] }) => (
         <div className='posts--content'>
           <h1>Posts.</h1>
           <p>Not the ramblings of a mad man 👀</p>
-          <ul>
+          <ul className='posts-list'>
            {posts.map((post, index) => (
              <li key={index}>
                <Link
