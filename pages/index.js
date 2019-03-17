@@ -41,6 +41,7 @@ const Index = ({ projects = [] }) => (
          <h3>{side_project.data.title[0].text}</h3>
          <p>
           <Link
+            prefetch
             as={linkResolver(side_project)}
             href={`/side_project?slug=${side_project.uid}`}
             passHref

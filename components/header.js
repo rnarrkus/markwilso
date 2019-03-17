@@ -4,13 +4,13 @@ const Header = () => (
   <nav>
     <div className='nav flex'>
       <div className='flexi twelve'>
-        <Link href="/">
+        <Link prefetch href="/">
           <a>Home</a>
         </Link>
-        <Link href="/posts">
+        <Link prefetch href="/posts">
           <a>Posts</a>
         </Link>
-        <Link href="/cv">
+        <Link prefetch href="/cv">
           <a>CV</a>
         </Link>
       </div>

@@ -15,6 +15,7 @@ const Posts = ({ posts = [] }) => (
            {posts.map((post, index) => (
              <li key={index}>
                <Link
+                 prefetch
                  as={linkResolver(post)}
                  href={`/post?slug=${post.uid}`}
                  passHref
