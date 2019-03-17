@@ -1,5 +1,6 @@
 import { getSideProjectsAPI } from '../api/api'
 import { linkResolver } from '../helpers/linkResolver'
+import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from './index.css'
 import Link from 'next/link'
@@ -7,6 +8,12 @@ import '../global/global-styles.css'
 
 const Index = ({ projects = [] }) => (
   <Layout>
+    <Head>
+      <title key="title">Markus Wilson</title>
+      <meta key="description" name="description" content="UX Designer from Glasgow, Scotland" />
+      <meta key="og:title" property="og:title" content="Markus Wilson" />
+      <meta key="og:description" property="og:description" content="UX Designer from Glasgow, Scotland" />
+    </Head>
 
     <div className='hero flex'>
       <div className='flexi twelve'>

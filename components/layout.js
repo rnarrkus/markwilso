@@ -2,7 +2,6 @@ import Header from './header'
 import Footer from './footer'
 import Router from 'next/router'
 import NProgress from 'nprogress'
-import Head from 'next/head'
 import '../global/nanogram.min.css'
 import './nprogress/nprogress.css'
 
@@ -12,10 +11,6 @@ Router.onRouteChangeError = () => NProgress.done()
 
 const Layout = (props) => (
   <div className='wrap'>
-
-    <Head>
-    </Head>
-
     <Header />
 
     {props.children}

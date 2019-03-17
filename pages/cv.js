@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
 import { RichText } from 'prismic-reactjs'
 import { getResumeAPI } from '../api/api'
+import Head from 'next/head'
 import linkResolver from '../helpers/linkResolver'
 import Layout from '../components/layout'
 
 const Resume = ({ resume = [] }) => (
   <Layout>
+    <Head>
+      <title key="title">Markus Wilson | Curriculum Vitae</title>
+      <meta key="og:title" property="og:title" content="Markus Wilson Curriculum Vitae" />
+    </Head>
+
     <div className='cv flex'>
       <div className='flexi twelve'>
         <h1>Curriculum vitae</h1>
