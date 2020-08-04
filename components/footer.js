@@ -8,7 +8,7 @@ const Footer = () => (
         <a className='button' href='mailto:e@markwil.so'>Email Me</a>
         <div className='footer--links'>
           <a href='https://github.com/rnarrkus'>GitHub</a>
-          <a href='https://dribbble.com/rnarrkus'>Dribbble</a>
+          <a href='https://dribbble.com/1xpng'>Dribbble</a>
         </div>
       </div>
     </div>
