@@ -78,11 +78,11 @@ export default class MyApp extends App {
           <meta name="HandheldFriendly" content="true" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="format-detection" content="telephone=no" />
-
-          <script
+        </Head>
+        <Component {...pageProps} />
+        <script
             dangerouslySetInnerHTML={{
               __html: `
-                <!-- Global site tag (gtag.js) - Google Analytics -->
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178268771-1"></script>
                 <script>
                   window.dataLayer = window.dataLayer || [];
@@ -94,8 +94,6 @@ export default class MyApp extends App {
                 `,
             }}
           />
-        </Head>
-        <Component {...pageProps} />
       </Container>
     )
   }
